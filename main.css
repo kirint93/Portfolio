@@ -5,7 +5,7 @@
           box-sizing: border-box;
   color: #010101d7;
   font-size: 18px;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 40px;
   scroll-behavior: smooth;
 }
@@ -53,7 +53,7 @@ nav a {
 h1 {
   text-align: left;
   text-overflow: o;
-  color: #ff4500;
+  color: #f5f5f5;
   padding-top: 0px;
   font-size: 51px;
   line-height: 60px;
@@ -75,9 +75,9 @@ h3 {
 }
 
 h6 {
-  color: #ff4500;
+  color: #f5f5f5;
   text-align: left;
-  font-size: 30px;
+  font-size: 50px;
 }
 
 .home {
@@ -111,7 +111,7 @@ h6 {
 
 .button {
   border-radius: 5px;
-  border: 2px solid black;
+  border: 2px solid #0000;
   margin-bottom: 10px;
   padding: 2px;
   -webkit-box-flex: right;
@@ -130,7 +130,7 @@ h6 {
 }
 
 .about {
-  background-color: lightgrey;
+  background-color: #f5f5dc;
   height: 2%;
   width: 100%;
   overflow: hidden;
@@ -145,7 +145,7 @@ h6 {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: whitesmoke;
+  background-color: lightgray;
   margin-bottom: 80px;
 }
 
@@ -167,6 +167,19 @@ h6 {
   background-color: #f5f5f5;
 }
 
+.skills .soft-skills {
+  position: relative;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 30px 60px 0 60px;
+  border: 2.5px solid red;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: lightgray;
+  margin-bottom: 70px;
+}
+
 .skills .icon {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -183,7 +196,7 @@ h6 {
 }
 
 .projects {
-  background-color: #d3d3d3d3;
+  background-color: #f5f5dc;
   padding-top: 1%;
 }
 
@@ -191,7 +204,7 @@ h6 {
   padding-bottom: 1%;
   display: -ms-grid;
   display: grid;
-  width: 60%;
+  width: 80%;
   -ms-grid-columns: (1fr)[3];
       grid-template-columns: repeat(3, 1fr);
   gap: 30px;
@@ -210,33 +223,37 @@ h6 {
 
 .card-body {
   width: 100%;
-  height: 100%;
-  -webkit-box-shadow: 0 5px 15px skyblue;
-          box-shadow: 0 5px 15px skyblue;
-  background-color: white;
+  height: 120%;
+  -webkit-box-shadow: 0 5px 15px #ff4500;
+          box-shadow: 0 5px 15px #ff4500;
+  background-color: #f5f5f5;
 }
 
 h4 {
   size: 30px;
   color: red;
+  margin-left: 30%;
 }
 
 .project-pic1 {
-  width: 100%;
+  width: 80%;
   height: 140px;
-  padding-top: 10%;
+  margin-left: 8%;
+  padding-top: 4%;
 }
 
 .project-pic2 {
-  width: 100%;
-  height: 140px;
+  width: 80%;
+  height: 180px;
+  margin-left: 8%;
   padding-top: 10%;
 }
 
 .project-pic3 {
-  padding-top: 10%;
+  width: 80%;
   height: 180px;
-  width: 100%;
+  margin-left: 8%;
+  padding-top: 10%;
 }
 
 .project-pic4 {
@@ -257,11 +274,16 @@ h4 {
   height: 180px;
 }
 
+.card-description {
+  margin-left: 22%;
+}
+
 .card-link {
   text-decoration: none;
-  border: 1px solid black;
+  border: 1px solid #0000;
   background-color: lightcoral;
-  color: black;
+  color: #000;
+  margin-left: 18%;
 }
 
 .div {
@@ -289,7 +311,7 @@ h4 {
 .contact-body {
   width: 100%;
   height: 100vh;
-  background-color: lightgray;
+  background-color: #f5f5dc;
 }
 
 .contact-body .text {
@@ -371,12 +393,12 @@ h4 {
   background-color: #ccc9c9;
   border: 2px solid #ccc9c9;
   border-radius: 5px;
-  color: black;
+  color: #000;
   cursor: pointer;
 }
 
 .contact-body .contact-form .input-fields .button:hover, .contact-body .contact-form .content .button:hover {
-  border: 2px solid white;
+  border: 2px solid #f5f5f5;
 }
 
 footer {
