@@ -141,27 +141,17 @@ h6 {
 }
 
 .skills {
-  padding: 25px;
+  padding-left: 5px;
+  padding-right: 5px;
   margin-bottom: 10%;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
-.skills .div {
-  text-align: center;
-  padding: 30px;
-  background-color: #f5f5f5;
-}
-
-.skills .soft-skills {
-  position: relative;
-  padding-left: 10px;
-  padding-right: 10px;
-  margin: 30px 60px 0 60px;
-  margin-bottom: 70px;
-}
-
-.skills .soft-skills h3 {
+.skills h3 {
   color: #f5f5f5;
-  font-size: 20px;
+  padding-bottom: 2%;
 }
 
 .skills .icon {
@@ -177,6 +167,20 @@ h6 {
           justify-content: space-evenly;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+}
+
+.skills .soft-skills {
+  position: relative;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 0px 60px 0 60px;
+  margin-bottom: 70px;
+}
+
+.skills .soft-skills h3 {
+  padding-top: 2%;
+  color: #f5f5f5;
+  font-size: 20px;
 }
 
 .projects {
