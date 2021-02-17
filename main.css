@@ -24,7 +24,7 @@ nav {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #ffa600d3;
+  background-color: #ff4500;
   padding: 0px;
   border: none;
 }
@@ -314,7 +314,7 @@ h4 {
 }
 
 .contact-body .contact-form {
-  background-color: #ff4500;
+  background-color: grey;
   width: 30%;
   margin: auto;
   margin-left: 35%;
@@ -408,7 +408,7 @@ footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #ffa600d3;
+  background-color: #ff4500;
   padding: 0px;
   border: none;
 }

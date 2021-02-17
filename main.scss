@@ -24,7 +24,7 @@ $Tertiary-color: #151616e1;
         display: flex;
         justify-content: flex-end;
         align-items: center;
-        background-color : #ffa600d3;
+        background-color : $primary-color;
         padding: 0px;
         border: none;
 
@@ -316,7 +316,7 @@ h4{
   }
 
   .contact-form {
-    background-color: $primary-color;
+    background-color: grey ;
     width: 30%;
     margin: auto;
     margin-left: 35%;
@@ -393,7 +393,7 @@ footer{
         display: flex;
         justify-content: flex-end;
         align-items: center;
-        background-color : #ffa600d3;
+        background-color:$primary-color;
         padding: 0px;
         border: none;
 
