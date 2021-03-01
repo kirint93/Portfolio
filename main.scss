@@ -240,9 +240,25 @@ h4 {
   font-weight: bold;
   color: $Tertiary-color;
 }
-
+.info3 {
+  color: $Tertiary-color;
+  height: 240px;
+}
 .info {
   color: $Tertiary-color;
+  height: 270px;
+}
+.info4 {
+  color: $Tertiary-color;
+  height: 160px;
+}
+.info5 {
+  color: $Tertiary-color;
+  height: 120px;
+}
+.info6 {
+  color: $Tertiary-color;
+  height: 160px;
 }
 .card-link {
   text-decoration: none;
@@ -371,13 +387,12 @@ footer {
 
 @media only screen and (min-width: 1440px) {
   .headers {
-    margin-left: 45%;
+    margin-left: 15%;
   }
   .icon {
     display: flex;
     flex-direction: row;
-
-    margin-left: 45%;
+    margin-left: 15%;
   }
 }
 
