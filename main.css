@@ -431,6 +431,9 @@ footer p {
 }
 
 @media only screen and (min-width: 1440px) {
+  .headers {
+    margin-left: 45%;
+  }
   .icon {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -439,7 +442,7 @@ footer p {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    margin-left: 200px;
+    margin-left: 45%;
   }
 }
 /*# sourceMappingURL=main.css.map */
