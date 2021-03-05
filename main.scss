@@ -384,6 +384,11 @@ footer {
   .button {
     width: 20%;
   }
+
+  .project-container{
+  display: grid;
+  grid-template-columns: 1fr;
+  }
 }
 
 @media only screen and (min-width: 1440px) {
