@@ -55,12 +55,17 @@ h1 {
   text-align: center;
   text-overflow: o;
   color: #f5f5f5;
-  font-size: 41px;
+  display: inline-block;
+  font-size: 38px;
   font-family: "Poppins";
   letter-spacing: 8px;
   line-height: 60px;
-  text-transform: capitalize;
   margin-bottom: 0%;
+}
+
+h1::first-letter {
+  font-size: 61px;
+  font-weight: bold;
 }
 
 h2 {
@@ -108,6 +113,17 @@ h6 {
   height: 88.6vh;
   margin-left: 5%;
   margin-top: 2%;
+}
+
+.home .intro .contact {
+  border: solid 2px #f5f5f5;
+  border-radius: 9px;
+  background-color: #000000;
+  color: #f5f5f5;
+  font-size: 23px;
+  height: 10vh;
+  width: 40%;
+  margin: 30px 80px;
 }
 
 .home .intro .span h3 {
