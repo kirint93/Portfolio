@@ -1,63 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script
+      src="https://kit.fontawesome.com/1782d53993.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="main.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Poppins"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Work</title>
+  </head>
 
-<head>
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-  <script  src="https://kit.fontawesome.com/1782d53993.js" crossorigin="anonymous"></script>  
-  <link rel="stylesheet" href="main.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Work</title>
-</head>
+  <body>
+    <header>
+      <nav>
+        <img src="./images/logo.png" alt="my-logo" />
 
-<body>
-  <header>
+        <a href="index.html">Home</a>
+        <a href="about.html">About me</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact me</a>
+      </nav>
+    </header>
+    <main>
+      <section class="home">
+        <section class="intro" data-aos="zoom-in-up">
+          <div class="text-wrapper">
+            <h1>Kirin Thapar</h1>
 
-    <nav>
-
-      <img src="./images/logo.png" alt="my-logo">
-
-      <a href="index.html">Home</a>
-      <a href="about.html">About me</a>
-      <a href="projects.html">Projects</a>
-      <a href="contact.html">Contact me</a>
-    </nav>
-  </header>
-  <main>
-    <section class="home">
-      <section class='intro' data-aos="zoom-in-right">
-        <div class="text-wrapper">
-
-          <h1> Kirin Thapar</h1>
-
-          <h6>Junior Software developer</h6> 
-             <h6>Welcome to my porfolio</h6>
-          
-
-        </div>
-
+            <h6>Junior Software Developer</h6>
+  
+          </div>
+        </section>
       </section>
-  </main>
-  <footer>
+    </main>
+    <footer>
+      <p class="copywright">
+        Designed & built by Kirin Thapar &#169; <span id="year"></span>
+      </p>
+      <ul>
+        <li>
+          <a
+            href="mailto:kirinthapar@yandex.com"
+            target="blank"
+            aria-hidden="true"
+            class="fa fa-envelope-3xx"
+          ></a>
+        </li>
+      </ul>
+    </footer>
 
-    <p class="copywright">Designed & built by Kirin Thapar &#169; <span id="year"></span></p>
-    <ul>
-
-      <li> <a href="mailto:kirinthapar@yandex.com" target="blank" aria-hidden="true" class="fa fa-envelope-3xx"></a>
-      </li>
-    </ul>
-  </footer>
-
-
-  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init({
-      delay: 20,
-      easing: 'ease-in',
-      duration: 600
-    });
-  </script>
-  <script src="main.js"></script>
-</body>
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        delay: 20,
+        easing: "ease-in",
+        duration: 800,
+      });
+    </script>
+    <script src="main.js"></script>
+  </body>
 </html>
