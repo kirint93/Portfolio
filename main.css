@@ -217,8 +217,6 @@ h6 {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-  border: #ff4500 solid 6px;
-  border-radius: 5px;
   padding-bottom: 1px;
 }
 
