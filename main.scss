@@ -190,15 +190,15 @@ h6 {
   gap: 30px;
   margin: auto;
   //margin-top: 20px;
-  border: $Tertiary-color solid 2px;
 }
 
 .card {
   border: 4px solid #fff;
   width: 100%;
-  height: fit-content;
+  height: fit-content;  
+  border: $primary-color solid 6px;
   border-radius: 5px;
-  padding-bottom: 10px;
+  padding-bottom: 1px;
 }
 
 .card-body {
@@ -208,7 +208,7 @@ h6 {
   background-color: $color;
 }
 
-h4 {
+.card-title {
   size: 30px;
   color: red;
   margin-left: 30%;
@@ -229,7 +229,7 @@ h4 {
 
 .project-pic3 {
   width: 80%;
-  height: 200px;
+  height: 210px;
   margin-left: 8%;
   padding-top: 4%;
 }
@@ -257,7 +257,7 @@ h4 {
 }
 .info3 {
   color: $Tertiary-color;
-  height: 240px;
+  height: 260px;
 }
 .info {
   color: $Tertiary-color;
@@ -269,7 +269,7 @@ h4 {
 }
 .info5 {
   color: $Tertiary-color;
-  height: 120px;
+  height: 160px;
 }
 .info6 {
   color: $Tertiary-color;
@@ -277,10 +277,14 @@ h4 {
 }
 .card-link {
   text-decoration: none;
-  border: 1px solid $Tertiary-color;
-  background-color: lightcoral;
+  border: 2px solid $Tertiary-color;
+  border-radius: 6px;
+  padding: 3px 3px 3px;
+  background-color: #078907;
   color: #000;
-  margin-left: 18%;
+  font-size: 20px;
+
+  margin-left: 12%;
 }
 
 .div {
