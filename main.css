@@ -132,7 +132,7 @@ h6 {
 }
 
 .about {
-  background-color: #151616e1;
+  background-color: #191919;
   height: 2%;
   width: 100%;
   overflow: hidden;
@@ -201,7 +201,7 @@ h6 {
 }
 
 .projects {
-  background-color: #151616e1;
+  background-color: #191919;
   padding-top: 1%;
 }
 
@@ -279,37 +279,37 @@ h6 {
 .card-description {
   margin-left: 22%;
   font-weight: bold;
-  color: #151616e1;
+  color: #191919;
 }
 
 .info3 {
-  color: #151616e1;
+  color: #191919;
   height: 260px;
 }
 
 .info {
-  color: #151616e1;
+  color: #191919;
   height: 270px;
 }
 
 .info4 {
-  color: #151616e1;
+  color: #191919;
   height: 160px;
 }
 
 .info5 {
-  color: #151616e1;
+  color: #191919;
   height: 160px;
 }
 
 .info6 {
-  color: #151616e1;
+  color: #191919;
   height: 160px;
 }
 
 .card-link {
   text-decoration: none;
-  border: 2px solid #151616e1;
+  border: 2px solid #191919;
   border-radius: 6px;
   padding: 3px 3px 3px;
   background-color: #078907;
@@ -344,7 +344,7 @@ h6 {
 .contact-body {
   width: 100%;
   height: 100vh;
-  background-color: #151616e1;
+  background-color: #191919;
 }
 
 .contact-body .text {
