@@ -49,7 +49,7 @@ nav a {
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 25px;
-  color: #000000;
+  color: #f5f5f5;
 }
 
 h1 {
@@ -458,7 +458,7 @@ h6 {
 
 .contact-body .contact-icons-container {
   margin-top: 0%;
-  margin-left: 3px;
+  margin-right: 0px;
   width: 14%;
   height: 58%;
   display: -webkit-box;
@@ -466,8 +466,8 @@ h6 {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+      -ms-flex-direction: flex-start;
+          flex-direction: flex-start;
 }
 
 .contact-body .contact-icons-container a {
