@@ -137,6 +137,10 @@ h6 {
   overflow: hidden;
 }
 
+.me {
+  margin-left: 200px;
+}
+
 .about-me {
   text-align: center;
   position: relative;
