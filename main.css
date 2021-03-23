@@ -139,7 +139,9 @@ h6 {
 }
 
 .me {
-  margin-left: 200px;
+  margin-left: 310px;
+  width: 50%;
+  border-radius: 20%;
 }
 
 .about-me {
