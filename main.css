@@ -505,6 +505,10 @@ footer p {
   .button {
     width: 20%;
   }
+  .me {
+    width: 400px;
+    margin-left: 20px;
+  }
   .project-container {
     display: -ms-grid;
     display: grid;

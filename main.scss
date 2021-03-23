@@ -431,7 +431,10 @@ footer {
   .button {
     width: 20%;
   }
-
+  .me{
+    width: 400px;
+    margin-left: 20px;
+  }
   .project-container {
     display: grid;
     grid-template-columns: 1fr;
