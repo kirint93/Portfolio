@@ -338,7 +338,7 @@ h6 {
     width: 40%;
     margin-bottom: 8%;
     margin-top: 4%;
-    margin-left: 370px;
+    margin-left: 390px;
 
     padding: 4px;
     border-radius: 5px;
@@ -382,7 +382,7 @@ h6 {
       .button {
         width: 50%;
         align-items: center;
-        margin-left: 75px;
+        margin-left: 89px;
         background-color: $Secondary-color;
         border: 2px solid $Secondary-color;
         border-radius: 5px;
@@ -517,6 +517,8 @@ footer {
     flex-direction: row;
     margin-left: 15%;
   }
+
+  
 }
 
 @media only screen and (max-width: 768px) {  
@@ -530,5 +532,11 @@ footer {
       width: 100%;
       font-size: 14px;
     }
+  }
+}
+
+@media screen and (min-width: 2400px) {
+  .icon{
+    margin-left: 1200px;
   }
 }

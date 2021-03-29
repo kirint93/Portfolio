@@ -365,7 +365,7 @@ h6 {
   width: 40%;
   margin-bottom: 8%;
   margin-top: 4%;
-  margin-left: 370px;
+  margin-left: 390px;
   padding: 4px;
   border-radius: 5px;
   display: -webkit-box;
@@ -454,7 +454,7 @@ h6 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-left: 75px;
+  margin-left: 89px;
   background-color: #ebe8e8;
   border: 2px solid #ebe8e8;
   border-radius: 5px;
@@ -616,6 +616,12 @@ footer p {
   nav a {
     width: 100%;
     font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 2400px) {
+  .icon {
+    margin-left: 1200px;
   }
 }
 /*# sourceMappingURL=main.css.map */
